@@ -24,7 +24,7 @@ const Introduction = () => {
                     />
                     </h2>
 
-                    <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
+                    <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 md:w-[600px]">
                     Como desarrollador React, fusiono optimización y funcionalidad para crear interfaces impactantes y accesibles, garantizando una experiencia de usuario fluida y eficiente.
                     </p>
 
