@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-
+//Font
 import { Urbanist } from "next/font/google";
 import "./globals.css";
 
@@ -18,7 +18,8 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "EnDev Landing Page",
   description: "Landing page made by EnDev",
-};
+}; 
+
 
 export default function RootLayout({
   children,
