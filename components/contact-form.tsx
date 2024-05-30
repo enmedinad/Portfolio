@@ -30,7 +30,7 @@ const ContactForm = () => {
             className="flex flex-col h-full gap-5 rounded-lg xl:w-[500px] justify-center mx-auto md:w-[350px] p-5 bg-[#ffffff20] shadow-xl"
             onSubmit={handleSubmit}
         >
-            <h1 className="text-2xl leading-tight mt-4 text-center md:text-5xl md:mb-5">Contacto</h1>
+            <h1 className="text-2xl leading-tight mt-4 text-center md:text-5xl md:mb-5">Trabajemos Juntos</h1>
 
             <motion.input
                 type="text"

@@ -117,17 +117,17 @@ export const serviceData = [
     {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario.",
     },
     {
         icon: <Book />,
         title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia.",
     },
     {
         icon: <Rocket />,
         title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas. ",
     },
 ];
 

@@ -29,7 +29,7 @@ const Introduction = () => {
                     </p>
 
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
-                        <Link href="/projects" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
+                        <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver Proyectos
                         </Link>
                         <Link href="/contact" className="px-3 text-secondary border-secondary py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/50">
