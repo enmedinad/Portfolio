@@ -32,7 +32,7 @@ const TestimonialsPage = () => {
                             clickable: true
                         }}
                         modules={[Pagination]}
-                        className="h-[380px] md:h-[300px] w-[270px] md:w-[550px]"
+                        className="h-[480px] md:h-[400px] w-[270px] md:w-[650px]"
                         >
                             {dataTestimonials.map(({id, name, description, imageUrl}) => (
                                 <SwiperSlide key={id}>

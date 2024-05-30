@@ -174,8 +174,8 @@ export const dataTestimonials = [
         id: 2,
         name: "Carolina Muñoz - Graphic Designer",
         description:
-            "...",
-        imageUrl: "/profile-2.png",
+            "Formar un equipo con Enzo fue un complemento muy bien decidido desde antes de su entrada oficial, fue previamente estudiado y recomendado. Tanto en su periodo de práctica como laboral formal, es alguien que se amolda a las necesidades de una organización, comprendiendo el rubro al que pertenece la misma. Son sinapsis consecutivas entre todo su conocimiento, la constante investigación para resolver  y un gran acople entre las materias que él domina junto a los requerimientos que se van solicitando. El resultado es homogéneo, limpio, estético y por sobre todo, funcional y personalizado según el caso que se tenga.",
+        imageUrl: "/profile-2.jpg",
     },
 
 ];
