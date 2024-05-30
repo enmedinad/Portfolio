@@ -9,13 +9,13 @@ interface PortfolioBoxProps {
         title: string,
         image: string,
         urlGithub: string,
-        urlDemo: string
+        urlLive: string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const {data} = props
-    const {id, title, image, urlGithub, urlDemo} = data
+    const {id, title, image, urlLive, urlGithub} = data
     return (
         <div className="p-4 border border-teal-50 rounded-xl">  
             <h3 className="mb-4 text-xl">
@@ -24,12 +24,16 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             <Image src={image} alt="Image Product" width={200} height={200}
             className="w-full md:w-[200px] rounded-2xl h-auto" />
             <div className="flex gap-5 mt-5">
-                <Link href={urlGithub} className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
-                    Github
+                <Link href={urlLive} className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
+                    Live
                 </Link>
-                <Link href={urlDemo} className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80">
-                    Github
-                </Link>
+
+
+                {urlGithub !== "false" && (
+                    <Link href={urlGithub} className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80">
+                        Github
+                    </Link>
+                )}
             </div>
         </div>
     )

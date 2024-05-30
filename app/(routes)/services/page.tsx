@@ -2,6 +2,7 @@ import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
+import Link from "next/link";
 
 const ServicesPage = () => {
     return (
@@ -23,9 +24,9 @@ const ServicesPage = () => {
                         aplicaciones atractivas y funcionales.<br />
                         Utilizando siempre las últimas tecnologias, como React, TypeScript, Javacript y Tailwind.
                     </p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
+                    <Link href="/contact" className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
                         Contacta Conmigo
-                    </button>
+                    </Link>
                 </div>
 
                 

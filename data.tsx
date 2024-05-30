@@ -1,30 +1,15 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github, LucideCode, Pencil, Book, Rocket, Speech, Contact } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/enzomedinadiaz/",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/enmedinad",
     },
 ];
 
@@ -60,65 +45,64 @@ export const itemsNavbar = [
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
         link: "/testimonials",
     },
+    {
+        id: 6,
+        title: "Contact",
+        icon: <Contact size={25} color="#fff" strokeWidth={1} />,
+        link: "/contact",
+    },
 ];
 
 export const dataAboutPage = [
     {
-        id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
-    },
-    {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Frontend Developer",
+        subtitle: "TRITEC Center",
+        description: "En mi rol designado, lideré la gestión completa del desarrollo web, enfocándome en el mantenimiento, mejoras y optimización del sitio. Mi responsabilidad incluye la formulación de propuestas de mejora, su implementación efectiva y la resolución de cualquier error o fallo en el tema o template instalado.",
+        date: "June 2023 ",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Backend Developer",
+        subtitle: "TRITEC Center",
+        description: "Junto con mi rol de Frontend Developer, me encarge de mantener, optimizar y adaptar la base de datos de el sitio web.",
+        date: "June 2023",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Práctica Universitaria",
+        subtitle: "Duoc UC",
+        description: "En mi práctica profesional como desarrollador web, asistí en el mantenimiento y la mejora de sitios web utilizando HTML, CSS y JavaScript. Aprendí a solucionar problemas y adaptarme a las necesidades del equipo, contribuyendo a proyectos que mejoraron la experiencia del usuario en diversas plataformas.",
+        date: "May 2022",
     },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 2,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: 9,
+        text: "Lenguajes Aprendidos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 4,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: 4,
+        text: "Clientes Satisfechos",
         lineRight: false,
         lineRightMobile: false,
     },
@@ -126,19 +110,14 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <LucideCode />,
+        title: "Desarrollo web",
+        description: "Desarrollo de web apps moderno y dinamico utilizando las mejores practicas en las ultimas tecnologias.",
     },
     {
         icon: <Pencil />,
         title: "Diseño web",
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
         icon: <Book />,
@@ -155,103 +134,48 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "E-commerce TRITEC",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "false",
+        urlLive: "https://tritec-center.cl/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Space-Time",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "false",
+        urlLive: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "X-Pedition",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "false",
+        urlLive: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
+        title: "Servion",
         image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "false",
+        urlLive: "#!",
     }
 ];
 
 export const dataTestimonials = [
     {
         id: 1,
-        name: "George Snow",
+        name: "Hernan Guitart - Manager of TRITEC Center",
         description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+            "Muy autonomo y responsable, hace maravillas en sus proyectos",
+        imageUrl: "/profile-1.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "Carolina Muñoz - Graphic Designer",
         description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
+            "waos",
         imageUrl: "/profile2.png",
     },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
-    },
+
 ];

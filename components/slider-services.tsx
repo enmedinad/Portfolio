@@ -13,7 +13,7 @@ const SliderServices = () => {
                 spaceBetween: 15
             },
             768: {
-                slidesPerView: 2,
+                slidesPerView: 2, 
                 spaceBetween: 15
             },
             1024: {
