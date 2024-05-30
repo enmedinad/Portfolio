@@ -174,8 +174,8 @@ export const dataTestimonials = [
         id: 2,
         name: "Carolina Muñoz - Graphic Designer",
         description:
-            "waos",
-        imageUrl: "/profile2.png",
+            "...",
+        imageUrl: "/profile-2.png",
     },
 
 ];
