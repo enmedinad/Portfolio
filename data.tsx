@@ -167,7 +167,7 @@ export const dataTestimonials = [
         id: 1,
         name: "Hernan Guitart - Manager of TRITEC Center",
         description:
-            "Muy autonomo y responsable, hace maravillas en sus proyectos",
+            "Durante su tiempo en nuestra empresa, demostró ser un desarrollador web extremadamente autónomo y responsable. Hizo maravillas en cada proyecto que emprendió, superando consistentemente nuestras expectativas. Su habilidad para manejar múltiples tareas y su compromiso con la excelencia fueron impresionantes. Su contribución ha sido muy valiosa.",
         imageUrl: "/profile-1.png",
     },
     {
