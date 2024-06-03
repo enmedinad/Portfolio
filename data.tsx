@@ -96,13 +96,6 @@ export const dataCounter = [
         id: 2,
         endCounter: 4,
         text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
-        id: 3,
-        endCounter: 4,
-        text: "Clientes Satisfechos",
         lineRight: false,
         lineRightMobile: false,
     },
@@ -143,22 +136,22 @@ export const dataPortfolio = [
         id: 2,
         title: "Space-Time",
         image: "/image-2.jpg",
-        urlGithub: "false",
-        urlLive: "#!",
+        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/Space-time",
+        urlLive: "false",
     },
     {
         id: 3,
         title: "X-Pedition",
         image: "/image-3.jpg",
-        urlGithub: "false",
-        urlLive: "#!",
+        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/X-pedition",
+        urlLive: "false!",
     },
     {
         id: 4,
         title: "Servion",
         image: "/image-4.jpg",
-        urlGithub: "false",
-        urlLive: "#!",
+        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/Servion",
+        urlLive: "false",
     }
 ];
 
