@@ -59,21 +59,21 @@ export const dataAboutPage = [
         title: "Frontend Developer",
         subtitle: "TRITEC Center",
         description: "En mi rol designado, lideré la gestión completa del desarrollo web, enfocándome en el mantenimiento, mejoras y optimización del sitio. Mi responsabilidad incluye la formulación de propuestas de mejora, su implementación efectiva y la resolución de cualquier error o fallo en el tema o template instalado.",
-        date: "June 2023 ",
+        date: "May 2023 ",
     },
     {
         id: 3,
         title: "Backend Developer",
         subtitle: "TRITEC Center",
         description: "Junto con mi rol de Frontend Developer, me encarge de mantener, optimizar y adaptar la base de datos de el sitio web.",
-        date: "June 2023",
+        date: "May 2023",
     },
     {
         id: 4,
         title: "Práctica Universitaria",
         subtitle: "Duoc UC",
         description: "En mi práctica profesional como desarrollador web, asistí en el mantenimiento y la mejora de sitios web utilizando HTML, CSS y JavaScript. Aprendí a solucionar problemas y adaptarme a las necesidades del equipo, contribuyendo a proyectos que mejoraron la experiencia del usuario en diversas plataformas.",
-        date: "May 2022",
+        date: "July 2022",
     },
 ]
 
