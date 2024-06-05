@@ -136,8 +136,8 @@ export const dataPortfolio = [
         id: 2,
         title: "Space-Time",
         image: "/image-2.jpg",
-        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/Space-time",
-        urlLive: "false",
+        urlGithub: "https://github.com/enmedinad/SpaceTime",
+        urlLive: "https://enmedinad.github.io/SpaceTime/",
     },
     {
         id: 3,
