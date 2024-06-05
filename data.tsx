@@ -143,14 +143,14 @@ export const dataPortfolio = [
         id: 3,
         title: "X-Pedition",
         image: "/image-3.jpg",
-        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/X-pedition",
+        urlGithub: "https://github.com/enmedinad/University-Proyects",
         urlLive: "false",
     },
     {
         id: 4,
         title: "Servion",
         image: "/image-4.jpg",
-        urlGithub: "https://github.com/enmedinad/Mis-Proyectos/tree/main/Servion",
+        urlGithub: "https://github.com/enmedinad/University-Proyects",
         urlLive: "false",
     }
 ];
