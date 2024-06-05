@@ -128,7 +128,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "E-commerce TRITEC",
-        image: "/image-1.jpg",
+        image: "/tritec-portfolio.png",
         urlGithub: "false",
         urlLive: "https://tritec-center.cl/",
     },
@@ -149,7 +149,7 @@ export const dataPortfolio = [
     {
         id: 4,
         title: "Servion",
-        image: "/image-4.jpg",
+        image: "/servion-portfolio.png",
         urlGithub: "https://github.com/enmedinad/University-Proyects",
         urlLive: "false",
     }
