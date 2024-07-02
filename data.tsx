@@ -65,7 +65,7 @@ export const dataAboutPage = [
         id: 3,
         title: "Backend Developer",
         subtitle: "TRITEC Center",
-        description: "Junto con mi rol de Frontend Developer, me encarge de mantener, optimizar y adaptar la base de datos de el sitio web.",
+        description: "Junto con mi rol de Frontend Developer, me encargué de mantener, optimizar y adaptar la base de datos del sitio web.",
         date: "May 2023",
     },
     {
@@ -105,7 +105,7 @@ export const serviceData = [
     {
         icon: <LucideCode />,
         title: "Desarrollo web",
-        description: "Desarrollo de web apps moderno y dinamico utilizando las mejores practicas en las ultimas tecnologias.",
+        description: "Desarrollo de aplicaciones web modernas y dinámicas utilizando las mejores prácticas en las últimas tecnologías.",
     },
     {
         icon: <Pencil />,

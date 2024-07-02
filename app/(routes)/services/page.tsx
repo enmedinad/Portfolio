@@ -20,9 +20,9 @@ const ServicesPage = () => {
                         </span>
                     </h1>
                     <p className="mb-3 text-xl text-gray-300">
-                        Ofrezco servicios de desarrollo web frontend especializados en la creacion de sitios web y 
-                        aplicaciones atractivas y funcionales.<br />
-                        Utilizando siempre las últimas tecnologias, como React, TypeScript, Javacript y Tailwind.
+                        Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y
+                        aplicaciones atractivas y funcionales. <br />
+                        Utilizo siempre las últimas tecnologías, como React, TypeScript, JavaScript y Tailwind.
                     </p>
                     <Link href="/contact" className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
                         Contacta Conmigo
